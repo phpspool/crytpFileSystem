@@ -1,0 +1,14 @@
+openssl:
+  privateKeyBits: 1024
+  privateKeyType: OPENSSL_KEYTYPE_RSA
+  numberOfDays: 365
+  cerPath: storage/db/test.cer
+  pfxPath: storage/db/test.pfx
+  dn:
+    countryName: cn
+    stateOrProvinceName: beijing
+    localityName: beijing
+    organizationName: chb
+    organizationalUnitName: phpspool
+    commonName: phpspool
+    emailAddress: yydick@sohu.com

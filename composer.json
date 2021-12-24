@@ -1,0 +1,32 @@
+{
+    "name": "spool/crypt-file-system",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "yydick",
+            "email": "yydick@sohu.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4",
+        "symfony/console": "5.4.x-dev",
+        "symfony/config": "5.4.x-dev",
+        "phpunit/phpunit": "9.5.x-dev",
+        "symfony/yaml": "5.4.x-dev",
+        "psr/log": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Spool\\CrytpFileSystem\\": "src/"
+        },
+        "files": [
+            "src/Functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
